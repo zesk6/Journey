@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+@layer base {
+    .big-text{
+        @apply text-zinc-50 text-2xl font-semibold;
+    }
+    .medium-text{
+        @apply text-zinc-50 text-[16px] font-semibold;
+    }
+    .small-text{
+        @apply text-zinc-50 text-sm ;
+    }
+}
